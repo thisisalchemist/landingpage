@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: roboto, sans-serif;
+}
+
+header{
+   background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a,p{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.headers__links{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero__right{
+    width: 350px;
+    height: 200px;
+    background-color: gray;
+}
+
+nav,.hero{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+button{
+    border: none;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 12px 24px;
+    margin: 16px 0;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
